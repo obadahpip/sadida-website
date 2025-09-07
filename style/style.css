@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #0b5d3a;
+  padding: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+nav.center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav.center a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav.center a:hover {
+  text-decoration: underline;
+}
+
+
+
+.lang-container {
+  position: relative;
+  display: inline-block;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.lang-btn img {
+  width: 28px;
+  height: 28px;
+}
+
+.lang-list {
+  display: block;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 100;
+  min-width: 100px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 2s;
+}
+
+.lang-list a {
+  display: block;
+  padding: 5px 10px;
+  color: #004225;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.lang-list a:hover {
+  background-color: #eee;
+}
+.lang-container:hover .lang-list {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.menu-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 20px;
+}
+.menu-btn img {
+  width: 28px;
+  height: 28px;
+}
+
+.hero {
+  background-image: url("../assets/images/stock-image.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.overview {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.overview h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.overview p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.video {
+  width: 90%;
+  max-width: 600px;
+  margin: 30px auto 0;
+  display: block;
+  border-radius: 10px;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* make all h2 green */
+h2 {
+  color: #0b5d3a;
+}
+
+/* button style */
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0b5d3a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.button-link:hover {
+  background-color: #094d30;
+}
+section {
+  /*max-width: 1000px;*/
+  margin: 0 auto;   /* centers horizontally */
+  padding: 20px;    /* optional spacing */
+  text-align: center;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+  border-radius: 10px;
+  display: inline-block;
+}
+#imageone{
+width: 90%;  
+}
+#imagetwo{
+width: 90%;  
+}
+hr{
+  color: #004225;
+}
+
+footer {
+  background-color: #0b5d3a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+.section-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 10px 10px 0 0;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .overview h2 {
+    font-size: 22px;
+  }
+
+  .overview p {
+    font-size: 14px;
+  }
+  nav.center {
+  display: none;
+}
+
+.menu-toggle {
+  display: block;
+}
+
+.lang-container {
+  margin-left: auto;
+}
+}
+@media screen and (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+ 

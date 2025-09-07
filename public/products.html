@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Products - Sadida Agricultural Company</title>
+  <link rel="stylesheet" href="../style/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #0b5d3a;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .product {
+      margin-bottom: 50px;
+    }
+    .product img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin-top: 10px;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+    .product h2 {
+      color: #0b5d3a;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #0b5d3a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+    .menu-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 20px;
+    }
+    .menu-btn img {
+      width: 28px;
+      height: 28px;
+    }
+    .header{
+      position: relative;
+      text-align: center;
+      padding: 10px;
+    }
+    .header p{
+      margin: 0%;
+    }
+    .menu-toggle{
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+       display: block;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+    .button{
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0b5d3a;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .button:hover {
+        background-color: #094d30;
+      }
+    @media screen and (max-width: 620px) {
+    .header p{
+      margin-right:13%;
+    }
+  }
+
+  </style>
+</head>
+<body>
+
+  <header>
+      <div class="header">  
+        <p>Our Products</p>
+        <div class="menu-toggle" id="menuToggle">
+          <a href="./list.html" class="menu-btn" id="menuBtn">
+            <img src="../assets/images/menu-toggle.jpg" alt="">
+          </a>
+        </div>
+      </div>
+  </header>
+
+  <div class="content">
+
+        <div class="product">
+        <h2>White Sesame</h2>
+        <img src="../assets/images/white-sesame-output-1.jpg" alt="White Sesame">
+        <p>
+            Premium-grade white sesame seeds, thoroughly cleaned and color sorted. Our most exported product to Asia and the Middle East.
+        </p>
+        <a class="button" href="./products-pages/whte-sesame.html">View More</a>
+        </div>
+
+        <div class="product">
+        <h2>Brown Sesame</h2>
+        <img src="../assets/images/brown-sesame-pic1.jpg" alt="Brown Sesame">
+        <p>
+            Earthy and rich in oil content, our brown sesame is harvested from local farms and processed with precision.
+        </p>
+        <a class="button" href="./products-pages/brown-sesame.html">View More</a>
+        </div>
+
+        <div class="product">
+        <h2>Mixed Sesame</h2>
+        <img src="../assets/images/mix-sesame-pic-1.jpeg" alt="Mixed Sesame">
+        <p>
+            A balanced mix of white and brown sesame for customers looking for custom blends. Cleaned and graded with high standards.
+        </p>
+        <a class="button" href="./products-pages/mixed-sesame.html">View More</a>
+        </div>
+
+        <div class="product">
+        <h2>Peanuts</h2>
+        <img src="../assets/images/peanuts-pic-1.jpeg" alt="Peanuts">
+        <p>
+            Locally grown peanuts sorted by size and quality. Perfect for oil extraction and snack production.
+        </p>
+        <a class="button" href="./products-pages/peanuts.html">View More</a>
+        </div>
+
+        <div class="product">
+        <h2>Hashab gum</h2>
+        <img src="../assets/images/gum-arabic-1.jpg" alt="Hashab gum">
+        <p>
+          Premium-grade natural gum arabic, carefully harvested from Acacia senegal trees. Known for its superior quality, clarity, and solubility — widely used in food, beverages, and pharmaceuticals.        
+        </p>
+        <a class="button" href="./products-pages/hashab-gum.html">View More</a>
+        </div>
+
+        <div class="product">
+        <h2>Boswellia gum</h2>
+        <img src="../assets/images/Boswellia-gum-1.jpg" alt="Boswellia gum">
+        <p>
+          Premium-grade Boswellia gum, carefully harvested from natural Boswellia trees. Widely valued for its aromatic fragrance, traditional medicinal benefits, and use in incense, cosmetics, and herbal remedies. Exported with high standards to meet international demand.        
+        </p>
+        <a class="button" href="./products-pages/boswellia-gum.html">View More</a>
+        </div>
+
+  </div>
+    <a href="https://wa.me/+23560151414" class="whatsapp-button" target="_blank">
+    WhatsApp Us
+    </a>
+
+  <footer>
+    <p>&copy; 2019 Sadida Agricultural Company. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

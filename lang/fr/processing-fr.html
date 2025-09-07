@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transformation – Société Agricole Sadida</title>
+  <link rel="stylesheet" href="../../style/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #0b5d3a;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+
+    }
+    .section img, .section video {
+      width: 100%;
+      max-width: 600px;
+      margin: 15px 0;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #0b5d3a;
+    }
+    .image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    }
+    .image-grid img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    }
+    .section video {
+    display: block;
+    margin: 20px auto;
+    }
+    .square-video {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 10px;
+    }
+    .square-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    }
+    .image-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    }
+    .image-grid-2 img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    }
+
+    footer {
+    background-color: #0b5d3a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 50px;
+    }
+        .menu-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 20px;
+    }
+    .menu-btn img {
+      width: 28px;
+      height: 28px;
+    }
+    .header{
+      position: relative;
+      text-align: center;
+      padding: 10px;
+    }
+    .header p{
+      margin: 0%;
+    }
+    .menu-toggle{
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+       display: block;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+    @media screen and (max-width: 620px) {
+    .header p{
+      margin-right:13%;
+    }
+  }
+  </style>
+</head>
+<body>
+
+  <header>
+        <div class="header">  
+            <p>Nos lignes de transformation</p>
+            <div class="menu-toggle" id="menuToggle">
+            <a href="./list-fr.html" class="menu-btn" id="menuBtn">
+                <img src="../../assets/images/menu-toggle.jpg" alt="">
+            </a>
+            </div>
+        </div>
+  </header>
+
+  <div class="content">
+
+    <div class="section">
+        <h2>Aperçu de nos 9 lignes de nettoyage et de calibrage</h2>
+        <p>
+        Nous exploitons 9 lignes de transformation de graines à haute performance utilisées pour nettoyer et calibrer le sésame, les arachides et d’autres grains.  
+        Ces machines traitent de 3 à 8 tonnes par heure et fournissent des <strong>produits de qualité export</strong> avec <strong>moins de 2 % d’impuretés</strong>.
+        </p>
+        <div class="image-grid">
+            <img src="../../assets/images/cleaning-machine-pic-1.jpg" alt="Cleaning Machine 1">
+            <img src="../../assets/images/cleaning-machine-pic-2.jpg" alt="Cleaning Machine 2">
+            <img src="../../assets/images/cleaning-machine-pic-3.jpg" alt="Cleaning Machine 3">
+            <img src="../../assets/images/cleaning-machine-pic-4.jpg" alt="Cleaning Machine 4">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Processus étape par étape</h2>
+        <p><strong>Chargement :</strong> Les graines sont versées dans la trémie supérieure.</p>
+        <p><strong>Nettoyage à l’air :</strong> Des ventilateurs d’aspiration éliminent la poussière, les enveloppes et la paille.</p>
+        <p><strong>Vibration et tamisage :</strong> Des tamis vibrants séparent les débris et classent les graines par taille.</p>
+        <p><strong>Calibrage :</strong> Les graines propres sont triées par catégories de taille.</p>
+        <p><strong>Séparation des pierres :</strong> Les tables à gravité éliminent les impuretés lourdes.</p>
+        <p><strong>Résultat final :</strong> Graines propres prêtes à l’exportation ou au tri par couleur.</p>
+
+    <video autoplay muted loop class="video">
+        <source src="../../assets/videos/output&stock-vid-4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="section">
+        <h2>Ligne avancée de tri optique (6SXZ)</h2>
+        <p>
+        Notre ligne de tri optique intègre le nettoyage des graines, la séparation des pierres et un tri avancé par caméra pour garantir une qualité parfaite.  
+        Elle traite de 3 à 5 tonnes par heure et est idéale pour la préparation finale à l’exportation.
+        </p>
+      <div class="square-video">
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/color-sorting-outut.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Équipe & Opérations</h2>
+        <div class="image-grid-2">
+
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/operation-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/operation-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/operation-3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/operation-4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/operation-5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video autoplay muted loop class="video">
+            <source src="../../assets/videos/operation-6.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+          </div>
+   </div>
+    <a href="https://wa.me/+23560151414" class="whatsapp-button" target="_blank">
+    WhatsApp
+    </a>
+  <footer>
+    <p>&copy; 2019 Société Agricole Sadida. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
