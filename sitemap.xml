@@ -1,32 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <!-- Homepage -->
-  <url>
-    <loc>https://www.sadidaagriculture.com/</loc>
-    <lastmod>2025-09-08</lastmod>
-    <priority>1.0</priority>
-  </url>
 
-  <!-- About page -->
-  <url>
-    <loc>https://www.sadidaagriculture.com/about.html</loc>
-    <lastmod>2025-09-08</lastmod>
-    <priority>0.8</priority>
-  </url>
+<url>
+  <loc>https://www.sadidaagriculture.com/</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/index.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/about.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/processing.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/index-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/index-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/list.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products-pages/whte-sesame.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products-pages/brown-sesame.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products-pages/mixed-sesame.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products-pages/peanuts.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products-pages/hashab-gum.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/public/products-pages/boswellia-gum.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/about-fr.html</loc>
+  <lastmod>2025-09-08T11:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/processing-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/list-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/list-ar.html</loc>
+  <lastmod>2025-09-08T11:53:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/about-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/processing-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-pages-fr/whte-sesame-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-pages-fr/brown-sesame-fr.html</loc>
+  <lastmod>2025-09-08T11:53:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-pages-fr/mixed-sesame-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-pages-fr/peanuts-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-pages-fr/hashab-gum-fr.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/fr/products-pages-fr/boswellia-gum-fr.html</loc>
+  <lastmod>2025-09-08T11:53:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-pages-ar/whte-sesame-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-pages-ar/brown-sesame-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-pages-ar/mixed-sesame-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-pages-ar/peanuts-ar.html</loc>
+  <lastmod>2025-09-08T11:53:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-pages-ar/hashab-gum-ar.html</loc>
+  <lastmod>2025-09-08T11:53:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.sadidaagriculture.com/lang/ar/products-pages-ar/boswellia-gum-ar.html</loc>
+  <lastmod>2025-09-08T11:53:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 
-  <!-- Products page -->
-  <url>
-    <loc>https://www.sadidaagriculture.com/products.html</loc>
-    <lastmod>2025-09-08</lastmod>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Processing page -->
-  <url>
-    <loc>https://www.sadidaagriculture.com/processing.html</loc>
-    <lastmod>2025-09-08</lastmod>
-    <priority>0.7</priority>
-  </url>
 
 </urlset>
